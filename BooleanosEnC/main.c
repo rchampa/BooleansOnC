@@ -8,8 +8,14 @@
 
 #include <stdio.h>
 
+int esMultiplo21(int n){
+    return n%21==0;
+}
+
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Hello, World!\n");
+    printf("true %d\n",esMultiplo21(21));
+    printf("false = %d\n",esMultiplo21(22));
+    
     return 0;
 }
